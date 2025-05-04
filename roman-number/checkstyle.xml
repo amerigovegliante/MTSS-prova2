@@ -15,6 +15,6 @@
     <module name="LineLength"/>
     <module name="FileTabCharacter"/>
     <module name="Header">
-        <property name="headerFile" value="java.header"/>
+        <property name="headerFile" value="roman-number/java.header"/>
     </module>
 </module>
