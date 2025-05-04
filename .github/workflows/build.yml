@@ -18,3 +18,4 @@ jobs:
         cache: 'maven'
     - name: Build and test with JaCoCo
       run: mvn -B clean package --file roman-number/pom.xml
+
