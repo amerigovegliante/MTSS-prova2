@@ -1,8 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: it.unipd.mtss.AppTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in it.unipd.mtss.AppTest
+=======
 Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! - in it.unipd.mtss.AppTest
 printTest(it.unipd.mtss.AppTest)  Time elapsed: 0.006 s  <<< FAILURE!
 java.lang.AssertionError
 	at it.unipd.mtss.AppTest.printTest(AppTest.java:12)
 
+>>>>>>> d86275fb8d198093d87c6fb7b9129d7975a79b6c
