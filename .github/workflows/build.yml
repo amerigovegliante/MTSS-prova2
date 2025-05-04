@@ -16,7 +16,5 @@ jobs:
         distribution: 'temurin'
         java-version: 8.0.332+9
         cache: 'maven'
-    - name: Build with Maven
-      run: mvn -B package --file roman-number/pom.xml
-    - name: Test with JaCoCo
-      run: mvn package jacoco:report --file roman-number/pom.xml
+    - name: Build and test with JaCoCo
+      run: mvn -B clean package --file roman-number/pom.xml
