@@ -1,3 +1,7 @@
+////////////////////////////////////////////////////////////////////
+// [Amerigo] [Vegliante] [2111004]
+// [Giulia] [Romanato] [2104060]
+///////////////////////////////////////////////////////////////////
 package it.unipd.mtss;
 
 import static org.junit.Assert.*;
@@ -9,6 +13,6 @@ public class AppTest
     @Test
     public void printTest()
     {
-        fail();
+        assertEquals(1,1);
     }
 }

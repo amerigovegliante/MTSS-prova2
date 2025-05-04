@@ -1,9 +1,9 @@
+////////////////////////////////////////////////////////////////////
+// [Amerigo] [Vegliante] [2111004]
+// [Giulia] [Romanato] [2104060]
+///////////////////////////////////////////////////////////////////
 package it.unipd.mtss;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
