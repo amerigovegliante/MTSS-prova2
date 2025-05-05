@@ -1,6 +1,6 @@
 package it.unipd.mtss;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class IntegerToRomanTest {
@@ -57,5 +57,11 @@ public class IntegerToRomanTest {
         for (int i=0;i<numeriRomani.length;i++){
             assertEquals(numeriRomani[i], IntegerToRoman.convert(i+1));
         }
+    }
+    @Test
+    public void testOutOfBounds()
+    {
+        assertEquals(null, IntegerToRoman.convert(0));
+        assertEquals(null, IntegerToRoman.convert(1001));
     }
 }
