@@ -6,8 +6,11 @@ package it.unipd.mtss;
 
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+    public static final String[] ascii_i = {" _____ ","|_   _|","  | |  ","  | |  "," _| |_ ","|_____|"};
+    public static final String[] ascii_v = {"__      __", "\\ \\    / /", " \\ \\  / / ", "  \\ \\/ /  ", "   \\  /   ", "    \\/    "};
+    public static final String[] ascii_x = {"__    __","\\ \\  / /"," \\ \\/ / ","  >  <  "," / /\\ \\ ","/_/  \\_\\"};
+    public static final String[] ascii_l = {" _      ","| |     ","| |     ","| |     ","| |____ ","|______|"};
+    public static final String[] ascii_c = {"  ___ "," / __|","| |   ","| |   ","| |__ "," \\___|"};
+    public static final String[] ascii_d = {" _____  ", "|  __ \\ ","| |  | |", "| |  | |", "| |__| |","|_____/ "};
+    public static final String[] ascii_m = {" __  __","|  \\/  |","| \\  / |","| |\\/| |","| |  | |","|_|  |_|"};
 }
