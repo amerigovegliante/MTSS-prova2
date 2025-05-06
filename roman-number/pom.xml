@@ -104,7 +104,7 @@
             </goals>
           </execution>
           <execution>
-            <id>default-report</id>
+            <id>generate-report</id>
             <phase>package</phase>
             <goals>
               <goal>report</goal>
