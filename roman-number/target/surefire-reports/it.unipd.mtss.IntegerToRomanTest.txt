@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: it.unipd.mtss.IntegerToRomanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in it.unipd.mtss.IntegerToRomanTest
+testOutOfBounds(it.unipd.mtss.IntegerToRomanTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<>
+	at it.unipd.mtss.IntegerToRomanTest.testOutOfBounds(IntegerToRomanTest.java:64)
+
+testConvert(it.unipd.mtss.IntegerToRomanTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[IV]> but was:<[]>
+	at it.unipd.mtss.IntegerToRomanTest.testConvert(IntegerToRomanTest.java:58)
+
