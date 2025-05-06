@@ -1,3 +1,3 @@
 # MTSS-prova2
 <!-- README.md -->
-+ [![cov](https://amerigovegliante.github.io/MTSS-prova2/badges/coverage.svg)](https://github.com/amerigovegliante/MTSS-prova2/actions)
+[![codecov](https://codecov.io/gh/amerigovegliante/MTSS-prova2/graph/badge.svg?token=0KDNW6W7VV)](https://codecov.io/gh/amerigovegliante/MTSS-prova2)
