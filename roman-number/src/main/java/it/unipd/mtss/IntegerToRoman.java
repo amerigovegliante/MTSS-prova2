@@ -8,6 +8,15 @@ public class IntegerToRoman {
                 roman=roman+"I";
             }
         }
+        else if(number <= 6)
+        {
+            if(number == 4)
+                roman = "IV";
+            if(number == 5)
+                roman = "V";
+            if(number == 6)
+                roman == "VI";
+        }
         return roman;
     }
 }
