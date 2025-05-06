@@ -15,7 +15,7 @@ public class IntegerToRoman {
             if(number == 5)
                 roman = "V";
             if(number == 6)
-                roman == "VI";
+                roman = "VI";
         }
         return roman;
     }
